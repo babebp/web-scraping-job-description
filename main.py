@@ -77,19 +77,6 @@ while epoch <= number_of_cards:
 
     epoch += 1
 
-
-# for card in job_card_list:
-#     card.click()
-#     try:
-#         WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, show_more_button_XPATH)))
-#         show_more_button = driver.find_element(By.XPATH, show_more_button_XPATH)
-#         show_more_button.click()
-
-#         job_description = driver.find_element(By.XPATH, job_description_XPATH)
-#         job_description_list.append(job_description.text)
-#     except:
-#         continue
-
 # extract distinct word in JD
 all_jd = ''
 
