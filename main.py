@@ -48,7 +48,7 @@ target_length = 100
 while epoch <= number_of_cards:
     print(epoch)
     print('max', number_of_cards)
-    if epoch == 100:
+    if epoch == target_length:
         break
 
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
